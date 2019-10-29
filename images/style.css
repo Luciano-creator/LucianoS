@@ -1,0 +1,80 @@
+
+a {
+  text-decoration: none;
+}
+.main-header{
+  text-align: center;
+}
+.logo {
+  border-radius: 180px;
+  padding: 30px;
+}
+.main-nav ul {
+  list-style: none;
+}
+.main-nav ul li {
+float: left;
+margin-right: 20px;
+width: 180px;
+height: 50px;
+background-color: gray;
+text-transform: uppercase;
+line-height: 45px;
+}
+.main-nav ul li a {
+  color: white;
+}
+body{
+  background-image: url(./bg-body.png);
+}
+.foto {
+  width: 1270px;
+  padding: 20px;
+}
+.vip-product {
+  overflow: hidden;
+}
+.product{
+  padding: 20px;
+  float: left;
+  width: 30%;
+}
+.photo-container{
+  overflow: hidden;
+  position: relative;
+}
+.special {
+  position: absolute;
+  right: 10%;
+
+}
+.zoom {
+  position: absolute;
+  color: white;
+  background-color: rgba(90,90,90,0.5);
+  text-align: center;
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  top: 50%;
+  left: 0;
+}
+.photo {
+  width: 100%;
+}
+.more{
+  background-color: gray;
+  color: white;
+  padding: 8px;
+}
+.main-footer ul{
+  list-style: none;
+  overflow: hidden;
+  background-color: red;
+  border-radius: 20px 20px 0 0;
+}
+.main-footer ul li{
+  float:left;
+  overflow: hidden;
+  width:50%;
+}
